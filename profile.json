@@ -59,6 +59,11 @@
         "name": "Criando um App de Alocamento de Devs Freelancer com a Rocketseat",
         "url": "https://github.com/emanuelleferraz/freelance-hours",
         "github": true
+      },
+      {
+        "name": "Sistema para Monitoramento de Doenças por Bairro",
+        "url": "https://github.com/emanuelleferraz/SICKSTEM",
+        "github": true
       }
     ],
     "professionalExperience": [
