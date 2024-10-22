@@ -1,0 +1,81 @@
+{
+    "name": "Emanuelle Ferraz",
+    "photo": "https://avatars.githubusercontent.com/u/111248050?v=4",
+    "job": "Estagiária de Dados",
+    "location": "João Monlevade - MG",
+    "phone": "(33) 98704-5416",
+    "email": "emanuelle.ferrazlm@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Python",
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/python.png"
+        },
+        {
+          "name": "NodeJS",
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/nodejs.png"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/js.png"
+        },
+        {
+          "name": "PHP",
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/php.png"
+        },
+        {
+          "name": "MySQL",
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/mysql.png"
+        },
+        {
+          "name": "HTML",
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/html.png"
+        }
+      ],
+      "softSkills": [
+        "Criatividade",
+        "Organização",
+        "Trabalho em equipe",
+        "Dedicação",
+        "Comunicação"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (intermediário)"
+    ],
+    "portfolio": [
+      {
+        "name": "Teste de Turing usando Sockets, Protocolo TCP/IP e IA",
+        "url": "https://github.com/emanuelleferraz/teste-turing",
+        "github": true
+      },
+      {
+        "name": "Criando um App de Gerenciamento de Metas com a Rocketseat",
+        "url": "https://github.com/emanuelleferraz/in-orbit",
+        "github": true
+      },
+      {
+        "name": "Criando um App de Alocamento de Devs Freelancer com a Rocketseat",
+        "url": "https://github.com/emanuelleferraz/freelance-hours",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Estagiária de Dados na Compass UOL",
+        "period": "2024 - até o momento",
+        "description": "Fortalecimento das linguagens chaves para ciência de dados e práticas de metodologias ágeis e versionamento de código. Realização de análises exploratórias e insights com boas visualizações. Ademais, aplicação de machine learning em projetos práticos com foco em negócios e utilização do Amazon SageMaker para criação de modelos de MLs."
+      },
+      {
+        "name": "Freelancer Photoshop",
+        "period": "2020 - até o momento",
+        "description": "Criação de artes para mídias sociais e criação de logotipos."
+      },
+      {
+        "name": "Bolsista BDI - Projeto de Acessibilidade Web - UFOP",
+        "period": "2024 - 2024",
+        "description": "Análise da porcentagem de acessibilidade nas páginas web da Universidade Federal de Ouro Preto, bem como a correção de erros de acessibilidade nesses sites."
+      }
+    ]
+  }
