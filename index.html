@@ -25,15 +25,21 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="/assets/img/minha-foto.jpg" alt="Foto de Emanuelle Ferraz" class="photo">
+            <img src="assets/img/minha-foto.jpg" alt="Foto de Perfil" class="photo" id="profile.photo">
 
-            <h1 class="title">Olá, <br>eu sou a Emanuelle Ferraz</h1>
-    
+            <h1 class="title">
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
+            </h1>
+
             <div class="information">
-                <p class="job">Estagiaria de Dados</p>
-                <p class="location">João Monlevade - BR</p>
-                <p class="phone"><a href="tel: (33) 987035416">(33) 987035416</a></p>
-                <p class="email"><a href="mailto: emanuelle.ferrazlm@gmail.com">emanuelle.ferrazlm@gmail.com</a></p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="phone">
+                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                </p>
             </div>
         </header>
 
@@ -46,42 +52,16 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Hard Skills:</h3>
-                        <ul>
-                            <li>
-                                <img src="/assets/img/icons/tools/python.png" alt="python" title="python">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/nodejs.png" alt="nodejs" title="nodejs">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/js.png" alt="javascript" title="javascript">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/php.png" alt="php" title="php">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/html.png" alt="html" title="html">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/git.png" alt="git" title="git">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/mysql.png" alt="mysql" title="mysql">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/vscode.png" alt="vscode" title="vscode">
-                            </li>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
                     </section>
     
                     <section class="personal">
                         <h3>Soft Skills:</h3>
-                        <ul>
-                            <li>Criatividade</li>
-                            <li>Trabalho em Equipe</li>
-                            <li>Dedicação</li>
-                            <li>Organização</li>
-                            <li>Comunicação</li>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
@@ -164,5 +144,7 @@
     </main>
     
     <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
